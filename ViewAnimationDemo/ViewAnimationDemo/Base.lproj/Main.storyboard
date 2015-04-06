@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--ChooseEffectVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ChooseEffectVC" title="ChooseEffectVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ChooseEffectVC" customModule="ViewAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IU0-kT-0ko">
+                                <rect key="frame" x="16" y="20" width="568" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Growing effect">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3vO-CV-8h9" kind="presentation" identifier="showEffect1" id="ibS-WE-ZiO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yh9-Sq-Voe">
+                                <rect key="frame" x="16" y="58" width="568" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Spring Animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3vO-CV-8h9" kind="presentation" identifier="showEffect2" id="7He-Hb-YSk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IU0-kT-0ko" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OJg-IM-eIM"/>
+                            <constraint firstItem="yh9-Sq-Voe" firstAttribute="top" secondItem="IU0-kT-0ko" secondAttribute="bottom" constant="8" id="aQv-7B-Qvf"/>
+                            <constraint firstItem="yh9-Sq-Voe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o9N-o6-IMn"/>
+                            <constraint firstItem="IU0-kT-0ko" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rYE-f7-jLG"/>
+                            <constraint firstItem="yh9-Sq-Voe" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rwb-2y-BSy"/>
+                            <constraint firstItem="IU0-kT-0ko" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xBj-rL-zEq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="424" y="463"/>
+        </scene>
+        <!--EffectVC-->
+        <scene sceneID="gGd-h0-5Xi">
+            <objects>
+                <viewController storyboardIdentifier="EffectVC" title="EffectVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3vO-CV-8h9" customClass="EffectVC" customModule="ViewAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ch6-iw-pn0"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ck-9p-iO4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9hd-Lo-e5s">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fba-oh-nhf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JVb-qP-ObZ">
+                                <rect key="frame" x="554" y="28" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4O2-Dp-Tug"/>
+                                    <constraint firstAttribute="width" constant="30" id="WQj-ru-99G"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="close.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nTI-DN-yf7" kind="unwind" unwindAction="close:" id="day-bo-riD"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tower-bridge.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="mRo-bN-bMF">
+                                <rect key="frame" x="120" y="120" width="360" height="360"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mRo-bN-bMF" firstAttribute="centerX" secondItem="9hd-Lo-e5s" secondAttribute="centerX" multiplier="0.6" id="2yT-gi-HXl"/>
+                            <constraint firstItem="mRo-bN-bMF" firstAttribute="height" secondItem="9hd-Lo-e5s" secondAttribute="height" multiplier="0.6" id="5oi-Ok-M2f"/>
+                            <constraint firstAttribute="centerY" secondItem="mRo-bN-bMF" secondAttribute="centerY" id="7pz-Cb-oip"/>
+                            <constraint firstItem="fba-oh-nhf" firstAttribute="top" secondItem="9hd-Lo-e5s" secondAttribute="top" id="9Qg-ct-8hx"/>
+                            <constraint firstAttribute="centerX" secondItem="mRo-bN-bMF" secondAttribute="centerX" id="Cs9-8g-Qm2"/>
+                            <constraint firstItem="fba-oh-nhf" firstAttribute="leading" secondItem="9hd-Lo-e5s" secondAttribute="leading" id="DCg-Yl-Cdh"/>
+                            <constraint firstItem="6Ck-9p-iO4" firstAttribute="top" secondItem="fba-oh-nhf" secondAttribute="bottom" id="F1Z-YR-lgQ"/>
+                            <constraint firstItem="JVb-qP-ObZ" firstAttribute="top" secondItem="ch6-iw-pn0" secondAttribute="bottom" constant="8" id="FTa-Bq-mwM"/>
+                            <constraint firstAttribute="trailing" secondItem="JVb-qP-ObZ" secondAttribute="trailing" constant="16" id="TRW-1g-oeY"/>
+                            <constraint firstAttribute="trailing" secondItem="fba-oh-nhf" secondAttribute="trailing" id="ubQ-ug-ahc"/>
+                            <constraint firstItem="mRo-bN-bMF" firstAttribute="width" secondItem="9hd-Lo-e5s" secondAttribute="width" multiplier="0.6" id="wng-Jr-dwr"/>
+                            <constraint firstItem="mRo-bN-bMF" firstAttribute="centerY" secondItem="9hd-Lo-e5s" secondAttribute="centerY" multiplier="0.6" id="yUZ-tc-uz2"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2yT-gi-HXl"/>
+                                <exclude reference="yUZ-tc-uz2"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="fba-oh-nhf" id="eDs-Zf-Jav"/>
+                        <outlet property="mainImage" destination="mRo-bN-bMF" id="O9j-15-APr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IBu-Gb-0rs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nTI-DN-yf7" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="463"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background.jpg" width="1200" height="800"/>
+        <image name="close.png" width="512" height="512"/>
+        <image name="tower-bridge.jpg" width="1951" height="1025"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="7He-Hb-YSk"/>
+    </inferredMetricsTieBreakers>
+</document>
