@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		50BE23371ACEB3780047B94B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE23361ACEB3780047B94B /* AppDelegate.swift */; };
 		50BE23391ACEB3780047B94B /* ChooseEffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE23381ACEB3780047B94B /* ChooseEffectVC.swift */; };
-		50BE233C1ACEB3780047B94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BE233A1ACEB3780047B94B /* Main.storyboard */; };
 		50BE233E1ACEB3780047B94B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50BE233D1ACEB3780047B94B /* Images.xcassets */; };
-		50BE23411ACEB3780047B94B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BE233F1ACEB3780047B94B /* LaunchScreen.xib */; };
 		50BE234D1ACEB3780047B94B /* ViewAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE234C1ACEB3780047B94B /* ViewAnimationDemoTests.swift */; };
 		50ECF9441ACEB3EF00F931CB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50ECF9431ACEB3EF00F931CB /* background.jpg */; };
 		50ECF9471ACEB48900F931CB /* EffectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ECF9461ACEB48900F931CB /* EffectVC.swift */; };
 		50ECF94D1ACEB86A00F931CB /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 50ECF94C1ACEB86A00F931CB /* close.png */; };
 		50ECF94F1ACEBD4A00F931CB /* tower-bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50ECF94E1ACEBD4A00F931CB /* tower-bridge.jpg */; };
+		AB16DFDC1AD32EC4007F3B27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB16DFDA1AD32EC4007F3B27 /* LaunchScreen.xib */; };
+		AB16DFDD1AD32EC4007F3B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB16DFDB1AD32EC4007F3B27 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +34,7 @@
 		50BE23351ACEB3780047B94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BE23361ACEB3780047B94B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50BE23381ACEB3780047B94B /* ChooseEffectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseEffectVC.swift; sourceTree = "<group>"; };
-		50BE233B1ACEB3780047B94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50BE233D1ACEB3780047B94B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		50BE23401ACEB3780047B94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50BE23461ACEB3780047B94B /* ViewAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BE234B1ACEB3780047B94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50BE234C1ACEB3780047B94B /* ViewAnimationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimationDemoTests.swift; sourceTree = "<group>"; };
@@ -44,6 +42,8 @@
 		50ECF9461ACEB48900F931CB /* EffectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectVC.swift; sourceTree = "<group>"; };
 		50ECF94C1ACEB86A00F931CB /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		50ECF94E1ACEBD4A00F931CB /* tower-bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tower-bridge.jpg"; sourceTree = "<group>"; };
+		AB16DFDA1AD32EC4007F3B27 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		AB16DFDB1AD32EC4007F3B27 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +89,9 @@
 				50BE23361ACEB3780047B94B /* AppDelegate.swift */,
 				50BE23381ACEB3780047B94B /* ChooseEffectVC.swift */,
 				50ECF9461ACEB48900F931CB /* EffectVC.swift */,
-				50BE233A1ACEB3780047B94B /* Main.storyboard */,
+				AB16DFDA1AD32EC4007F3B27 /* LaunchScreen.xib */,
+				AB16DFDB1AD32EC4007F3B27 /* Main.storyboard */,
 				50BE233D1ACEB3780047B94B /* Images.xcassets */,
-				50BE233F1ACEB3780047B94B /* LaunchScreen.xib */,
 				50BE23341ACEB3780047B94B /* Supporting Files */,
 			);
 			path = ViewAnimationDemo;
@@ -182,6 +182,7 @@
 				TargetAttributes = {
 					50BE23301ACEB3780047B94B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = AHJLBGJZ42;
 					};
 					50BE23451ACEB3780047B94B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -213,10 +214,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB16DFDC1AD32EC4007F3B27 /* LaunchScreen.xib in Resources */,
 				50ECF94D1ACEB86A00F931CB /* close.png in Resources */,
 				50ECF94F1ACEBD4A00F931CB /* tower-bridge.jpg in Resources */,
-				50BE233C1ACEB3780047B94B /* Main.storyboard in Resources */,
-				50BE23411ACEB3780047B94B /* LaunchScreen.xib in Resources */,
+				AB16DFDD1AD32EC4007F3B27 /* Main.storyboard in Resources */,
 				50BE233E1ACEB3780047B94B /* Images.xcassets in Resources */,
 				50ECF9441ACEB3EF00F931CB /* background.jpg in Resources */,
 			);
@@ -259,25 +260,6 @@
 			targetProxy = 50BE23471ACEB3780047B94B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		50BE233A1ACEB3780047B94B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50BE233B1ACEB3780047B94B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50BE233F1ACEB3780047B94B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50BE23401ACEB3780047B94B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		50BE234E1ACEB3780047B94B /* Debug */ = {
@@ -363,9 +345,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = ViewAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -373,9 +357,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = ViewAnimationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
