@@ -3,7 +3,7 @@
 //  ViewAnimationDemo
 //
 //  Created by Massimo Polimeni on 03/04/15.
-//  Copyright (c) 2015 massimopolimeni. All rights reserved.
+//  Copyright (c) 2015 Massimo Polimeni. All rights reserved.
 //
 
 import UIKit
@@ -25,14 +25,19 @@ class ChooseEffectVC: UIViewController {
  	}
 	
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-		let viewController:EffectVC = segue.destinationViewController as EffectVC
+		
+        let viewController:EffectVC = segue.destinationViewController as EffectVC
 		
 		// set the effect chosen for EffectVC
 		if (segue.identifier == "showEffect1") {
 			viewController.effect = 1
 		} else if (segue.identifier == "showEffect2") {
 			viewController.effect = 2
-		}
+        } else if (segue.identifier == "showEffect3") {
+            viewController.effect = 3
+        } else if (segue.identifier == "showEffect4") {
+            viewController.effect = 4
+        }
 	}
 
 }

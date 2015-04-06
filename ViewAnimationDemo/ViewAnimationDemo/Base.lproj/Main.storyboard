@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -42,13 +42,43 @@
                                     <segue destination="3vO-CV-8h9" kind="presentation" identifier="showEffect2" id="7He-Hb-YSk"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhN-2r-Xgd">
+                                <rect key="frame" x="16" y="96" width="568" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Slide up animation">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3vO-CV-8h9" kind="presentation" identifier="showEffect3" id="mqy-Fj-SMw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L50-pc-qCu">
+                                <rect key="frame" x="16" y="134" width="568" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Spring + slide up">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3vO-CV-8h9" kind="presentation" identifier="showEffect4" id="58H-Eq-6NK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="EhN-2r-Xgd" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="2lK-eu-sST"/>
+                            <constraint firstItem="EhN-2r-Xgd" firstAttribute="top" secondItem="yh9-Sq-Voe" secondAttribute="bottom" constant="8" id="9AI-8p-NpQ"/>
+                            <constraint firstItem="L50-pc-qCu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jr7-BC-Net"/>
+                            <constraint firstItem="L50-pc-qCu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LDc-8f-LJN"/>
                             <constraint firstItem="IU0-kT-0ko" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OJg-IM-eIM"/>
                             <constraint firstItem="yh9-Sq-Voe" firstAttribute="top" secondItem="IU0-kT-0ko" secondAttribute="bottom" constant="8" id="aQv-7B-Qvf"/>
+                            <constraint firstItem="EhN-2r-Xgd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nRf-AQ-bQ9"/>
                             <constraint firstItem="yh9-Sq-Voe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="o9N-o6-IMn"/>
                             <constraint firstItem="IU0-kT-0ko" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rYE-f7-jLG"/>
+                            <constraint firstItem="L50-pc-qCu" firstAttribute="top" secondItem="EhN-2r-Xgd" secondAttribute="bottom" constant="8" id="rgP-ur-NTd"/>
                             <constraint firstItem="yh9-Sq-Voe" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rwb-2y-BSy"/>
                             <constraint firstItem="IU0-kT-0ko" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xBj-rL-zEq"/>
                         </constraints>
@@ -129,6 +159,6 @@
         <image name="tower-bridge.jpg" width="1951" height="1025"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7He-Hb-YSk"/>
+        <segue reference="58H-Eq-6NK"/>
     </inferredMetricsTieBreakers>
 </document>
