@@ -28,3 +28,17 @@ and in your **viewDidAppear** just use this:<br>
 0.7 is the duration of the animation in seconds and you can obviously set what do you want. <br><br>
 As you can see you need to write just a few lines for an impressive and smooth animation because the UIView automatically renders the animations for you.
 
+### 2. Spring animation
+This animation works similar to previous; the only thing that you need to change is the method in your viewDidAppear with this:
+
+	UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.5,
+	initialSpringVelocity: 0.5, options: nil, animations: {
+            self.dialogView.transform = CGAffineTransformMakeScale(1, 1)
+        }, completion: nil)
+        
+As you can see this method uses two more parameters unlike the previous, the damping and initialSpringVelocity: 
+
+- **damping** controls how much resistance the spring has at the end state of the animation; so if you want to increase oscillation just set a lower value;
+- **initialSpringVelocity** specifies the initial spring velocity.
+
+ 
