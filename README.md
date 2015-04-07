@@ -5,7 +5,10 @@ This is an example on how to use the method:
 	UIView.animateWithDuration(1.0, animations)
     
 for create excellent and smooth animations with a few lines of code in **Swift**, using the **UIKit framework**.<br><br>
-You can download my project and run the application for see basic animations that you can do very easily on every UIview; in my work I use the view of an UIImage on a blurred background, with a main menu for choose and see every animation.<br>
+You can download my project for see the code and run the application for see the  animations, just choose one on the main menu; in my example I use the view of an UIImage for the animations on a blurred background.<br><br>
+In addition to my code I suggest you to read the following description on how these **animations** work and how implement a **blurry effect** on UIImage. 
+
+--------- _work in progress_ ---------
 
 <br>
 ## Animations
@@ -41,4 +44,7 @@ As you can see this method uses two more parameters unlike the previous, the dam
 - **damping** controls how much resistance the spring has at the end state of the animation; so if you want to increase oscillation just set a lower value;
 - **initialSpringVelocity** specifies the initial spring velocity.
 
+<br>
+## Blurry effect
+--------- _work in progress_ ---------
  
