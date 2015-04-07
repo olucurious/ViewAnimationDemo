@@ -33,7 +33,7 @@ This animation works similar to previous; the only thing that you need to change
 
 	UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.5,
 	initialSpringVelocity: 0.5, options: nil, animations: {
-            self.dialogView.transform = CGAffineTransformMakeScale(1, 1)
+            self.yourView.transform = CGAffineTransformMakeScale(1, 1)
         }, completion: nil)
         
 As you can see this method uses two more parameters unlike the previous, the damping and initialSpringVelocity: 
