@@ -32,7 +32,7 @@ and in your **viewDidAppear** just use this:<br>
 As you can see you need to write just a few lines for an impressive and smooth animation because the UIView automatically renders the animations for you.
 
 ### 2. Spring animation
-This animation works similar to previous; the only thing that you need to change is the method in your viewDidAppear with this:
+This animation works similar to previous; the only thing that you need to change is the method in your **viewDidAppear** with this:
 
 	UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.5,
 	initialSpringVelocity: 0.5, options: nil, animations: {
