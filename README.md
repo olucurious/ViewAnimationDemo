@@ -6,13 +6,13 @@ This is an example on how to use the method:
     
 for create excellent and smooth animations with a few lines of code in **Swift**, using the **UIKit framework**.<br><br>
 You can download my project for see the code and run the application for see the  animations, just choose one on the main menu; in my example I use the view of an UIImage for the animations on a blurred background.<br><br>
-![](//Readme resources/menu.png)
+![ScreenShot](/Readme resources/menu.png)
 In addition to my code I suggest you to read the following description on how these **animations** work and how implement a **blurry effect** on UIImage. 
 
 <br>
 ## Animations<br>
 ### 1. Growing animation
-![](//Readme resources/growing_effect.gif) <br>
+![ScreenShot](/Readme resources/growing_effect.gif) <br>
 For use a simple growing animation you need to set a start and an end state for the animation: 
 
 - start state, the view is in zero size
@@ -34,7 +34,7 @@ As you can see you need to write just a few lines for an impressive and smooth a
 
 <br>
 ### 2. Spring animation
-![](//Readme resources/spring_animation.gif) <br>
+![ScreenShot](/Readme resources/spring_animation.gif) <br>
 This animation works similar to previous; the only thing that you need to change is the method in your **viewDidAppear** with this:
 
 	UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.5,
@@ -49,7 +49,7 @@ As you can see this method uses two more parameters unlike the previous, the dam
 
 <br>
 ### 3. Slide up animation
-![](//Readme resources/slide_up_animation.gif) <br>
+![ScreenShot](/Readme resources/slide_up_animation.gif) <br>
 For the slide up animation you need to use another transform function in sostitution to the previous, the **CGAffineTransformMakeTranslation(x, y)**. <br><br>
 The reason is that for a slide up animation you need first move the view off screen and then bring it back to its original position.<br>
 So in your **viewDidLoad** just use: 
@@ -66,7 +66,7 @@ Now in the **viewDidAppear** you can show your view with:
 
 <br>
 ### 4. Spring + slide up
-![](//Readme resources/spring_slide_up.gif) <br>
+![ScreenShot](/Readme resources/spring_slide_up.gif) <br>
 Finally a great example for show that you can easily combine two animations using the function:
 	
     CGAffineTransformConcat(transform1, transform2)
@@ -92,7 +92,7 @@ That's it!
 ## Blurry effect
 
 For conclude just a few words about the blurry effect, a really cool effect and easy to use effect!<br>
-![](//Readme resources/blur_example.png) <br>
+![ScreenShot](/Readme resources/blur_example.png) <br>
 
 To implement this effect you need to use the **UIBlurEffect** object just like this:
 
