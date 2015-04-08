@@ -91,8 +91,8 @@ That's it!
 <br>
 ## Blurry effect
 
-For conclude just a few words about the blurry effect, a really cool effect and easy to use effect!<br>
-![ScreenShot](/Readme resources/blur_example.png) <br>
+For conclude just a few words about the blurry effect, a cool effect but really easy to use!<br><br>
+![ScreenShot](/Readme resources/blur_example.png) <br><br>
 
 To implement this effect you need to use the **UIBlurEffect** object just like this:
 
