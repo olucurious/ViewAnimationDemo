@@ -6,7 +6,7 @@ This is an example on how to use the method:
     
 for create excellent and smooth animations with a few lines of code in **Swift**, using the **UIKit framework**.<br><br>
 You can download my project for see the code and run the application for see the  animations, just choose one on the main menu; in my example I use the view of an UIImage for the animations on a blurred background.<br><br>
-![ScreenShot](/Readme resources/menu.png)
+![ScreenShot](/Readme resources/menu.png)<br><br>
 In addition to my code I suggest you to read the following description on how these **animations** work and how implement a **blurry effect** on UIImage. 
 
 <br>
