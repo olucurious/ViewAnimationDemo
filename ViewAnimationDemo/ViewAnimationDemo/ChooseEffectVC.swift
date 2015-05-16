@@ -26,7 +26,7 @@ class ChooseEffectVC: UIViewController {
 	
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
 		
-        let viewController:EffectVC = segue.destinationViewController as EffectVC
+        let viewController:EffectVC = segue.destinationViewController as! EffectVC
 		
 		// set the effect chosen for EffectVC
 		if (segue.identifier == "showEffect1") {
